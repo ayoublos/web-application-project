@@ -3,7 +3,7 @@ body{
   margin-top: -22px;
 }
 
-header{
+header{width:100%;
     text-align: center;
     background-color: turquoise;
     color: white;
@@ -13,6 +13,11 @@ header{
       padding-top: 20px;
     }
     
+}
+@media(max-width:600px){
+  header{
+  width: 600px;
+  }
 }
 
 
@@ -168,6 +173,11 @@ table tr td:first-child::before
 
 
 }
+/* @media (min-width: 500px) {
+  p {
+    color: lightslategray;
+  }
+} */
 
 
 
