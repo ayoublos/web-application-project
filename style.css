@@ -1,0 +1,173 @@
+
+body{
+  margin-top: -22px;
+}
+
+header{
+    text-align: center;
+    background-color: turquoise;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+     h1{
+      padding-top: 20px;
+    }
+    
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+table{
+  width: 98%;
+  margin: 10px;
+  margin-top: 3%;
+  .number{
+    width: 20px;
+
+  }
+  th{
+    background-color: turquoise;
+  }
+  td{
+    text-align: center;
+    padding: 10px;
+  }
+
+  .number{
+    width: 5%;
+
+  }
+  .product-name{
+    width: 10%;
+
+  }
+  .quantity{
+    width: 5%;
+  }
+  .description{
+    width: 20%;
+
+  }
+  .suppliers{
+    width: 10%;
+
+  }
+
+  .createAt{
+    width: 10%;
+
+  }
+  .updateAt{
+    width: 15%;
+
+  }
+  .action{
+    width: 20%;
+
+  }
+  th{
+    height: 40px;
+  }
+  .image{
+    width: 8%;
+  }
+  .add{
+    border-radius: 50%;
+    border: 1px solid blue;
+    background-color: turquoise;
+    height: 25px;
+    width: 25px;
+
+    
+  }
+  .remove{
+    border-radius: 50%;
+    border: 1px solid blue;
+    background-color: turquoise;
+    height: 25px;
+    width: 25px;
+
+    
+  }
+  .delete{
+    background-color: rgb(243, 81, 81);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    color: white;
+  }
+  td img{
+    height: 100px;
+    
+  }
+
+
+
+}
+
+
+
+
+table
+{
+    counter-reset: rowNumber;
+}
+
+table tr > td:first-child
+{
+    counter-increment: rowNumber;
+}
+
+table tr td:first-child::before
+{
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+.input-section{
+  form{
+    padding: 10px;
+  }
+  h1{
+    padding: 10px;
+
+  }
+  hr{
+    width: 33%;
+    margin-left:10px;
+  }
+  input{
+    width: 30%;
+  }
+  .submit{
+    background-color: turquoise;
+    color: black;
+    border: none;
+    width: 10%;
+    height: 25px;
+    border-radius: 7px;
+    margin-top: 2%;
+  }
+
+  .reset{
+    background-color: rgb(219, 211, 211);
+    color: black;
+    border: none;
+    width: 10%;
+    height: 25px;
+    border-radius: 7px;
+    margin-top: 2%;
+  }
+  
+
+
+}
+
+
+
